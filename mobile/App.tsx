@@ -1,7 +1,7 @@
 import { useFonts, Inter_400Regular, Inter_600SemiBold, Inter_700Bold, Inter_800ExtraBold } from '@expo-google-fonts/inter';
 import { Loading } from './src/components/Loading';
-import { Home } from './src/screens/Home';
 import { StatusBar } from 'react-native';
+import { Routes } from './src/routes';
 import './src/lib/dayjs';
 
 export default function App() {
@@ -16,8 +16,8 @@ export default function App() {
 
   return (
     <>
-      <Home />
-      < StatusBar barStyle={'light-content'} backgroundColor="transparent" translucent />
+      <Routes />
+      <StatusBar barStyle={'light-content'} backgroundColor="transparent" translucent />
     </>
   );
-};
+}
