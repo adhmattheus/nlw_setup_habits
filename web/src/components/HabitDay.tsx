@@ -1,8 +1,8 @@
 import * as Popover from '@radix-ui/react-popover';
+import * as Checkbox from '@radix-ui/react-checkbox';
 import { ProgressBar } from './ProgressBar';
-import clsx from 'clsx';
-import * as Checkbox from '@radix-ui/react-checkbox'
 import { Check } from 'phosphor-react';
+import clsx from 'clsx';
 
 interface HabitDayProps {
   completed: number
