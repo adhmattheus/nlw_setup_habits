@@ -5,8 +5,6 @@ const weekDays = ['D', 'S', 'T', 'Q', 'Q', 'S', 'S'];
 const sumaryDates = generateDatesFromYearBeginning();
 const minimunSummaryDatesSize = 18 * 7;//18 weeks
 const amountOfDaysToFill = minimunSummaryDatesSize - sumaryDates.length;
-console.log(amountOfDaysToFill);
-
 
 export function SummaryTable() {
   return (
